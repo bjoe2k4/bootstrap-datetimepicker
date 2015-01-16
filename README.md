@@ -1,21 +1,25 @@
-# Bootstrap 3 datetimepicker widget 
-![GitHub version](https://badge.fury.io/gh/Eonasdan%2Fbootstrap-datetimepicker.png)&nbsp;&nbsp;&nbsp;![Travis](https://travis-ci.org/Eonasdan/bootstrap-datetimepicker.svg?branch=development)
+# This is the v4beta development branch. ![Travis](https://travis-ci.org/Eonasdan/bootstrap-datetimepicker.svg?branch=v4beta)
 
-![DateTimePicker](http://i.imgur.com/nfnvh5g.png)
+Please use [this jsfiddle](http://jsfiddle.net/Eonasdan/0Ltv25o8/) to test your configurations.
 
-## [View the manual and demos](http://eonasdan.github.io/bootstrap-datetimepicker/)
+Expect things to change as we are currently in the process of redesing API and behaviour for the component
 
-#Feature Freeze
-Version 3 of our date picker is currently in a feature freeze. Version 4 is comming very soon. We are working on updating the docs and getting existing bugs and features rolled up into v4. We will continue to fix minor bugs in v3 in the meantime, but all new features should go into v4.
+For changelog have a look on [here](https://github.com/Eonasdan/bootstrap-datetimepicker/wiki/Version-4-changelog) and also on the commit history
+
+In this version all the component interaction is made through the [Public API](https://github.com/Eonasdan/bootstrap-datetimepicker/wiki/Version-4-Public-API)
+
+## Want to help us?
+
+That would be great!
+
+**We are currently in need for beta testers** to find issues that might have slipped.
+
+Also if you have the guts we could use a hand writing test specs.
+
+Have a look first [here](https://github.com/Eonasdan/bootstrap-datetimepicker/wiki/Version-4-Contributors-guide) as a supplement to the code
+
+Also note that all PR's related to v4 should be made to ```v4beta``` branch and should pass the validations. Have a look at [here](https://github.com/Eonasdan/bootstrap-datetimepicker/blob/v4beta/CONTRIBUTING.md) to get started. Remember to ```checkout v4beta```.
 
 ## Submitting Issues
-Please test and/or fork [this jsfiddle](http://jsfiddle.net/Eonasdan/f3x2mvr1/) with an example of your issue before you post an issue here. 
 
-## Where do you use this?
-I'd love to know if your public site is using this plugin and list your logo on the documentation site. Please email me `eonasdan at outlook dot com`. Do not submit issue/feature request to this email, they will be ignored.
-
-## [Installation instructions](https://github.com/Eonasdan/bootstrap-datetimepicker/wiki/Installation)
-Installation instructions has been moved to the wiki
-
-## [Change Log](https://github.com/Eonasdan/bootstrap-datetimepicker/wiki/Change-Log)
-The change log has moved to the wiki
+Please test with the latest source code on this branch not the minified versions as they are outdated. Start your issue title with a ```v4:``` so it can be easily identified by the colaborators.
